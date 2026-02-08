@@ -1,15 +1,15 @@
 
 import React, { useState, useEffect } from 'react';
 import Sidebar from './components/Sidebar.tsx';
-import HomeView from './components/HomeView';
-import DiseaseScanner from './components/DiseaseScanner';
-import NutrientAnalyzer from './components/NutrientAnalyzer';
-import SoilAnalyzer from './components/SoilAnalyzer';
-import GardenCare from './components/GardenCare';
-import WeatherView from './components/WeatherView';
-import HistoryView from './components/HistoryView';
-import ChatBot from './components/ChatBot';
-import CCTVMonitor from './components/CCTVMonitor';
+import HomeView from './components/HomeView.tsx';
+import DiseaseScanner from './components/DiseaseScanner.tsx';
+import NutrientAnalyzer from './components/NutrientAnalyzer.tsx';
+import SoilAnalyzer from './components/SoilAnalyzer.tsx';
+import GardenCare from './components/GardenCare.tsx';
+import WeatherView from './components/WeatherView.tsx';
+import HistoryView from './components/HistoryView.tsx';
+import ChatBot from './components/ChatBot.tsx';
+import CCTVMonitor from './components/CCTVMonitor.tsx';
 import { AppView, HistoryItem } from './types';
 
 const App: React.FC = () => {

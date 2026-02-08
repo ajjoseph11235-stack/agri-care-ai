@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/Sidebar.tsx';
 import HomeView from './components/HomeView';
 import DiseaseScanner from './components/DiseaseScanner';
 import NutrientAnalyzer from './components/NutrientAnalyzer';
